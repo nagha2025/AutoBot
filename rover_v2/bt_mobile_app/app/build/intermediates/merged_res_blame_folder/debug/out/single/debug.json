@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\nagha\\.gradle\\daemon\\8.5\\com.rover.controller.app-merged_res-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\nagha\\.gradle\\daemon\\8.5\\com.rover.controller.app-main-36:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.rover.controller.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.rover.controller.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nagha\\.gradle\\daemon\\8.5\\com.rover.controller.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\nagha\\.gradle\\daemon\\8.5\\com.rover.controller.app-main-36:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\nagha\\.gradle\\daemon\\8.5\\com.rover.controller.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nagha\\.gradle\\daemon\\8.5\\com.rover.controller.app-main-36:\\layout\\activity_main.xml"
+    }
+]
