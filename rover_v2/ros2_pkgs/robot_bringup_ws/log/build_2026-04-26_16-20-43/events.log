@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000764] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.099710] (-) TimerEvent: {}
+[0.200089] (-) TimerEvent: {}
+[0.300493] (-) TimerEvent: {}
+[0.400855] (-) TimerEvent: {}
+[0.501346] (-) TimerEvent: {}
+[0.601718] (-) TimerEvent: {}
+[0.702035] (-) TimerEvent: {}
+[0.802354] (-) TimerEvent: {}
+[0.902682] (-) TimerEvent: {}
+[1.003022] (-) TimerEvent: {}
+[1.103351] (-) TimerEvent: {}
+[1.203670] (-) TimerEvent: {}
+[1.304004] (-) TimerEvent: {}
+[1.404436] (-) TimerEvent: {}
+[1.429780] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/build', 'install', '--record', '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nagha/Desktop/robot_bringup_ws/src/robot_bringup', 'env': {'VNCDESKTOP': 'nagha-pi:1 (nagha)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nagha', 'SSH_AGENT_PID': '1633', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nagha', 'CYCLONEDDS_URI': 'file:///home/nagha/.cyclonedds/config.xml', 'OLDPWD': '/home/nagha/Desktop/robot_bringup_ws/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-u9v0pB4E3d,guid=6630b4c4a3822b7c8ee10b7669ece39d', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'COLCON_PREFIX_PATH': '/home/nagha/Desktop/slam/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nagha', 'JOURNAL_STREAM': '8:13020', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/system.slice/vncserver.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin', 'SESSION_MANAGER': 'local/nagha-pi:@/tmp/.ICE-unix/1432,unix/nagha-pi:/tmp/.ICE-unix/1432', 'INVOCATION_ID': 'c29819716f8c4af7b4d581be8d37a61b', 'XDG_MENU_PREFIX': 'xfce-', 'DISPLAY': ':1.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-NNp4JWTwHEcR/agent.1632', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2fc5bc8f-c996-4ae8-b1eb-33512b6b48be', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.504533] (-) TimerEvent: {}
+[1.604889] (-) TimerEvent: {}
+[1.705201] (-) TimerEvent: {}
+[1.805511] (-) TimerEvent: {}
+[1.825364] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[1.854004] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[1.854333] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[1.854585] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[1.854732] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[1.905608] (-) TimerEvent: {}
+[1.909580] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[1.943103] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[1.946297] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[1.950611] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[1.950777] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[1.959105] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[1.993848] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[1.994191] (robot_bringup) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[1.995217] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.005708] (-) TimerEvent: {}
+[2.035492] (robot_bringup) StdoutLine: {'line': b"removing '/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.037031] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info\n'}
+[2.063296] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[2.105843] (-) TimerEvent: {}
+[2.206227] (-) TimerEvent: {}
+[2.285913] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/install.log'\n"}
+[2.306336] (-) TimerEvent: {}
+[2.383687] (robot_bringup) CommandEnded: {'returncode': 0}
+[2.406431] (-) TimerEvent: {}
+[2.433022] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[2.435484] (-) EventReactorShutdown: {}

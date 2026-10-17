@@ -1,0 +1,2 @@
+[console_scripts]
+bno085_node = imu_node_pkg.bno085_node:main

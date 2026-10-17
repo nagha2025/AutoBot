@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000682] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.099755] (-) TimerEvent: {}
+[0.200262] (-) TimerEvent: {}
+[0.302212] (-) TimerEvent: {}
+[0.402578] (-) TimerEvent: {}
+[0.503028] (-) TimerEvent: {}
+[0.604299] (-) TimerEvent: {}
+[0.705164] (-) TimerEvent: {}
+[0.805606] (-) TimerEvent: {}
+[0.906276] (-) TimerEvent: {}
+[1.007792] (-) TimerEvent: {}
+[1.108397] (-) TimerEvent: {}
+[1.209056] (-) TimerEvent: {}
+[1.309383] (-) TimerEvent: {}
+[1.409714] (-) TimerEvent: {}
+[1.510032] (-) TimerEvent: {}
+[1.610347] (-) TimerEvent: {}
+[1.710672] (-) TimerEvent: {}
+[1.811011] (-) TimerEvent: {}
+[1.846721] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup', 'env': {'VNCDESKTOP': 'nagha-pi:1 (nagha)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nagha', 'SSH_AGENT_PID': '1649', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nagha', 'CYCLONEDDS_URI': 'file:///home/nagha/.cyclonedds/config.xml', 'OLDPWD': '/home/nagha/Desktop/robot_bringup_ws', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'PS1': '(imu_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '1346', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-EJjYi1s9Xr,guid=4eec8bd795a1067cb95fd82569ece39c', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'COLCON_PREFIX_PATH': '/home/nagha/Desktop/slam/install:/home/nagha/Desktop/odom/ros_ws/install:/home/nagha/Desktop/mpu9250/ros_ws/install:/home/nagha/Desktop/robot_bringup_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nagha', 'JOURNAL_STREAM': '8:15518', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/system.slice/vncserver.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'PATH': '/home/nagha/Desktop/mpu9250/imu_env/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin', 'SESSION_MANAGER': 'local/nagha-pi:@/tmp/.ICE-unix/1439,unix/nagha-pi:/tmp/.ICE-unix/1439', 'INVOCATION_ID': 'ad40d8358e3b4316aa092904862614bc', 'XDG_MENU_PREFIX': 'xfce-', 'DISPLAY': ':1.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VIRTUAL_ENV_PROMPT': '(imu_env)', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-wvWRHVelofrq/agent.1648', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/nagha/Desktop/mpu9250/ros_ws/install/imu_mpu9250:/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry:/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a04e980f-65e6-4678-bb59-bd7f7ffa8e4a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/nagha/Desktop/mpu9250/imu_env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages:/home/nagha/Desktop/mpu9250/ros_ws/build/imu_mpu9250:/home/nagha/Desktop/mpu9250/ros_ws/install/imu_mpu9250/lib/python3.12/site-packages:/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup:/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages:/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.911113] (-) TimerEvent: {}
+[2.011431] (-) TimerEvent: {}
+[2.111756] (-) TimerEvent: {}
+[2.212055] (-) TimerEvent: {}
+[2.312361] (-) TimerEvent: {}
+[2.352434] (robot_bringup) StdoutLine: {'line': b'running develop\n'}
+[2.412455] (-) TimerEvent: {}
+[2.512748] (-) TimerEvent: {}
+[2.613061] (-) TimerEvent: {}
+[2.645349] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[2.645686] (robot_bringup) StdoutLine: {'line': b'creating robot_bringup.egg-info\n'}
+[2.673027] (robot_bringup) StdoutLine: {'line': b'writing robot_bringup.egg-info/PKG-INFO\n'}
+[2.673409] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to robot_bringup.egg-info/dependency_links.txt\n'}
+[2.673646] (robot_bringup) StdoutLine: {'line': b'writing requirements to robot_bringup.egg-info/requires.txt\n'}
+[2.673791] (robot_bringup) StdoutLine: {'line': b'writing top-level names to robot_bringup.egg-info/top_level.txt\n'}
+[2.673942] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[2.713154] (-) TimerEvent: {}
+[2.741752] (robot_bringup) StdoutLine: {'line': b"reading manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[2.742572] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[2.773749] (robot_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[2.774042] (robot_bringup) StdoutLine: {'line': b'Creating /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)\n'}
+[2.774659] (robot_bringup) StdoutLine: {'line': b'\n'}
+[2.774817] (robot_bringup) StdoutLine: {'line': b'Installed /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup\n'}
+[2.774944] (robot_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[2.775067] (robot_bringup) StdoutLine: {'line': b'creating /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/ament_index\n'}
+[2.775185] (robot_bringup) StdoutLine: {'line': b'creating /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/ament_index/resource_index\n'}
+[2.775315] (robot_bringup) StdoutLine: {'line': b'creating /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[2.775442] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/resource/robot_bringup -> /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[2.775597] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/package.xml -> /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/robot_bringup\n'}
+[2.775724] (robot_bringup) StdoutLine: {'line': b'creating /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[2.775840] (robot_bringup) StdoutLine: {'line': b'symbolically linking /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/launch/bringup.launch.py -> /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[2.813297] (-) TimerEvent: {}
+[2.898615] (robot_bringup) CommandEnded: {'returncode': 0}
+[2.913770] (-) TimerEvent: {}
+[2.921087] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[2.925063] (-) EventReactorShutdown: {}

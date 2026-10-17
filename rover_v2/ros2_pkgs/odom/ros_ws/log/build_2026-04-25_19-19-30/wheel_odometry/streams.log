@@ -1,0 +1,18 @@
+[2.004s] Invoking command in '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry': PS1=(imu_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(imu_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build --no-deps
+[2.646s] running develop
+[3.044s] running egg_info
+[3.044s] creating wheel_odometry.egg-info
+[3.080s] writing wheel_odometry.egg-info/PKG-INFO
+[3.080s] writing dependency_links to wheel_odometry.egg-info/dependency_links.txt
+[3.081s] writing entry points to wheel_odometry.egg-info/entry_points.txt
+[3.081s] writing requirements to wheel_odometry.egg-info/requires.txt
+[3.081s] writing top-level names to wheel_odometry.egg-info/top_level.txt
+[3.081s] writing manifest file 'wheel_odometry.egg-info/SOURCES.txt'
+[3.180s] reading manifest file 'wheel_odometry.egg-info/SOURCES.txt'
+[3.180s] writing manifest file 'wheel_odometry.egg-info/SOURCES.txt'
+[3.225s] running build_ext
+[3.226s] Creating /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel-odometry.egg-link (link to .)
+[3.305s] Installing wheel_odom script to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/wheel_odometry
+[3.305s] 
+[3.306s] Installed /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry
+[3.476s] Invoked command in '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry' returned '0': PS1=(imu_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(imu_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build --no-deps

@@ -1,0 +1,131 @@
+[0.147s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.147s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff942b62d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff94472de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff94472de0>>)
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nagha/Desktop/odom/ros_ws'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_odometry) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheel_odometry' with type 'ros.ament_python' and name 'wheel_odometry'
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.303s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/nagha/Desktop/odom/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.304s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nagha/Desktop/odom/install/wheel_odometry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nagha/Desktop/slam/install
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/jazzy
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'wheel_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry', 'merge_install': False, 'path': '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.397s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.399s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry' with build type 'ament_python'
+[0.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_odometry', 'ament_prefix_path')
+[0.406s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/hook/ament_prefix_path.ps1'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/hook/ament_prefix_path.dsv'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/hook/ament_prefix_path.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.895s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'wheel_odometry' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.895s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'wheel_odometry' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.896s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry'
+[0.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry': PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheel_odometry build --build-base /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build install --record /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log --single-version-externally-managed
+[3.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry' returned '0': PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheel_odometry build --build-base /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build install --record /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log --single-version-externally-managed
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry' for CMake module files
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry' for CMake config files
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib'
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/bin'
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/pkgconfig/wheel_odometry.pc'
+[3.594s] Level 1:colcon.colcon_core.environment:checking '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages'
+[3.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_odometry', 'pythonpath')
+[3.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/hook/pythonpath.ps1'
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/hook/pythonpath.dsv'
+[3.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/hook/pythonpath.sh'
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/bin'
+[3.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_odometry)
+[3.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/package.ps1'
+[3.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/package.dsv'
+[3.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/package.sh'
+[3.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/package.bash'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/wheel_odometry/package.zsh'
+[3.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/share/colcon-core/packages/wheel_odometry)
+[3.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.635s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.636s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.660s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.662s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.701s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagha/Desktop/odom/ros_ws/install/local_setup.ps1'
+[3.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nagha/Desktop/odom/ros_ws/install/_local_setup_util_ps1.py'
+[3.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagha/Desktop/odom/ros_ws/install/setup.ps1'
+[3.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagha/Desktop/odom/ros_ws/install/local_setup.sh'
+[3.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nagha/Desktop/odom/ros_ws/install/_local_setup_util_sh.py'
+[3.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagha/Desktop/odom/ros_ws/install/setup.sh'
+[3.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagha/Desktop/odom/ros_ws/install/local_setup.bash'
+[3.718s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagha/Desktop/odom/ros_ws/install/setup.bash'
+[3.723s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagha/Desktop/odom/ros_ws/install/local_setup.zsh'
+[3.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagha/Desktop/odom/ros_ws/install/setup.zsh'

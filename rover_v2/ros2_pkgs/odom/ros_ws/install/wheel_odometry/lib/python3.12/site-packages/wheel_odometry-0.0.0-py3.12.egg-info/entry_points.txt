@@ -1,0 +1,2 @@
+[console_scripts]
+wheel_odom = wheel_odometry.odom_node:main

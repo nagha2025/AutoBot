@@ -1,0 +1,29 @@
+running develop
+Removing /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel-odometry.egg-link (link to .)
+running egg_info
+writing ../../build/wheel_odometry/wheel_odometry.egg-info/PKG-INFO
+writing dependency_links to ../../build/wheel_odometry/wheel_odometry.egg-info/dependency_links.txt
+writing entry points to ../../build/wheel_odometry/wheel_odometry.egg-info/entry_points.txt
+writing requirements to ../../build/wheel_odometry/wheel_odometry.egg-info/requires.txt
+writing top-level names to ../../build/wheel_odometry/wheel_odometry.egg-info/top_level.txt
+reading manifest file '../../build/wheel_odometry/wheel_odometry.egg-info/SOURCES.txt'
+writing manifest file '../../build/wheel_odometry/wheel_odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build
+creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib
+creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry
+copying wheel_odometry/__init__.py -> /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry
+copying wheel_odometry/odom_node.py -> /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry
+running install
+running install_lib
+creating /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry
+copying /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry/__init__.py -> /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry
+copying /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry/odom_node.py -> /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry
+byte-compiling /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry/odom_node.py to odom_node.cpython-312.pyc
+running install_egg_info
+Copying ../../build/wheel_odometry/wheel_odometry.egg-info to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry-0.0.0-py3.12.egg-info
+running install_scripts
+Installing wheel_odom script to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/wheel_odometry
+writing list of installed files to '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log'

@@ -1,0 +1,113 @@
+from launch import LaunchDescription
+from launch.actions import ExecuteProcess, IncludeLaunchDescription, TimerAction
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.actions import Node
+import os
+
+def generate_launch_description():
+
+    lidar_launch = os.path.expanduser(
+        '~/Desktop/slam/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py'
+    )
+
+    imu = Node(
+        package='imu_node_pkg',
+        executable='bno085_node',
+        name='bno085_node',
+        output='screen'
+    )
+
+    wheel = Node(
+        package='wheel_odometry',
+        executable='wheel_odom',
+        name='wheel_odom',
+        output='screen'
+    )
+
+    lidar = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(lidar_launch)
+    )
+
+    webcam = Node(
+        package='v4l2_camera',
+        executable='v4l2_camera_node',
+        name='v4l2_camera',
+        output='screen',
+        parameters=[{
+            'video_device': '/dev/video0',
+            'image_size': [640, 480],
+            'frame_rate': 30.0,
+            'camera_frame_id': 'camera_link'
+        }]
+    )
+
+    imu_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0', '0', '0.05', '0', '0', '0', 'base_link', 'imu_link']
+    )
+
+    laser_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0.18', '0', '0.12', '0', '0', '0', 'base_link', 'laser']
+    )
+
+    camera_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0.1', '0.0', '0.2', '0', '0', '0', 'base_link', 'camera_link']
+    )
+
+    ekf = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[
+            '/home/nagha/Desktop/robot_bringup_ws/src/robot_bringup/config/ekf.yaml',
+            {'use_sim_time': False}
+        ]
+    )
+
+    # RTAB-Map SLAM Node configured for Lidar + Monocular Camera + EKF Odometry
+    rtabmap_node = Node(
+        package='rtabmap_slam',
+        executable='rtabmap',
+        name='rtabmap',
+        output='screen',
+        parameters=[{
+            'frame_id': 'base_link',
+            'subscribe_depth': False,
+            'subscribe_rgb': True,
+            'subscribe_scan': True,
+            'approx_sync': True,
+            'wait_imu_to_init': False,
+            'Reg/Strategy': '1', # 0=Visual, 1=ICP (uses lidar scan matching), 2=Visual+ICP
+            'Grid/FromDepth': 'false'
+        }],
+        remappings=[
+            ('rgb/image', '/image_raw'),
+            ('scan', '/scan'),
+            ('odom', '/odometry/filtered'),
+            ('grid_map', '/map')  # <--- This forces RTAB-Map to publish to /map
+        ],
+        arguments=['--delete_db_on_start']
+    )
+
+    delayed_rtabmap = TimerAction(
+        period=4.0,
+        actions=[rtabmap_node]
+    )
+
+    return LaunchDescription([
+        imu,
+        wheel,
+        lidar,
+        webcam,
+        imu_tf,
+        laser_tf,
+        camera_tf,
+        ekf,
+        delayed_rtabmap
+    ])

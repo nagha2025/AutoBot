@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/imu_node_pkg/imu_node_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_node_pkg/imu_node_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_node_pkg/imu_node_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/imu_node_pkg/imu_node_pkg.egg-info/requires.txt
+writing top-level names to ../../build/imu_node_pkg/imu_node_pkg.egg-info/top_level.txt
+reading manifest file '../../build/imu_node_pkg/imu_node_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/imu_node_pkg/imu_node_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying imu_node_pkg/bno085_node.py -> /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg
+running install
+running install_lib
+copying /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg/bno085_node.py -> /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg
+byte-compiling /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg/bno085_node.py to bno085_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/imu_node_pkg/imu_node_pkg.egg-info to /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing bno085_node script to /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/imu_node_pkg
+writing list of installed files to '/home/nagha/Desktop/bno085_ws/build/imu_node_pkg/install.log'

@@ -1,0 +1,24 @@
+[1.295s] Invoking command in '/home/nagha/Desktop/bno085_ws/src/imu_node_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nagha/Desktop/bno085_ws/build/imu_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_node_pkg build --build-base /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build install --record /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/install.log --single-version-externally-managed install_data
+[1.668s] running egg_info
+[1.696s] writing ../../build/imu_node_pkg/imu_node_pkg.egg-info/PKG-INFO
+[1.704s] writing dependency_links to ../../build/imu_node_pkg/imu_node_pkg.egg-info/dependency_links.txt
+[1.716s] writing entry points to ../../build/imu_node_pkg/imu_node_pkg.egg-info/entry_points.txt
+[1.727s] writing requirements to ../../build/imu_node_pkg/imu_node_pkg.egg-info/requires.txt
+[1.728s] writing top-level names to ../../build/imu_node_pkg/imu_node_pkg.egg-info/top_level.txt
+[1.787s] reading manifest file '../../build/imu_node_pkg/imu_node_pkg.egg-info/SOURCES.txt'
+[1.810s] writing manifest file '../../build/imu_node_pkg/imu_node_pkg.egg-info/SOURCES.txt'
+[1.811s] running build
+[1.811s] running build_py
+[1.811s] copying imu_node_pkg/bno085_node.py -> /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg
+[1.812s] running install
+[1.824s] running install_lib
+[1.852s] copying /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg/bno085_node.py -> /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg
+[1.853s] byte-compiling /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg/bno085_node.py to bno085_node.cpython-312.pyc
+[1.854s] running install_data
+[1.854s] running install_egg_info
+[1.904s] removing '/home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.914s] Copying ../../build/imu_node_pkg/imu_node_pkg.egg-info to /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg-0.0.0-py3.12.egg-info
+[1.923s] running install_scripts
+[2.141s] Installing bno085_node script to /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/imu_node_pkg
+[2.143s] writing list of installed files to '/home/nagha/Desktop/bno085_ws/build/imu_node_pkg/install.log'
+[2.229s] Invoked command in '/home/nagha/Desktop/bno085_ws/src/imu_node_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nagha/Desktop/bno085_ws/build/imu_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_node_pkg build --build-base /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build install --record /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/install.log --single-version-externally-managed install_data

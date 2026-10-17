@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000890] (wheel_odometry) JobQueued: {'identifier': 'wheel_odometry', 'dependencies': OrderedDict()}
+[0.001189] (wheel_odometry) JobStarted: {'identifier': 'wheel_odometry'}
+[0.099702] (-) TimerEvent: {}
+[0.200291] (-) TimerEvent: {}
+[0.302116] (-) TimerEvent: {}
+[0.402437] (-) TimerEvent: {}
+[0.502765] (-) TimerEvent: {}
+[0.603247] (-) TimerEvent: {}
+[0.703518] (-) TimerEvent: {}
+[0.803867] (-) TimerEvent: {}
+[0.904236] (-) TimerEvent: {}
+[1.004555] (-) TimerEvent: {}
+[1.104894] (-) TimerEvent: {}
+[1.205285] (-) TimerEvent: {}
+[1.305647] (-) TimerEvent: {}
+[1.406100] (-) TimerEvent: {}
+[1.506468] (-) TimerEvent: {}
+[1.607011] (-) TimerEvent: {}
+[1.707500] (-) TimerEvent: {}
+[1.806747] (wheel_odometry) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build'], 'cwd': '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry', 'env': {'VNCDESKTOP': 'nagha-pi:1 (nagha)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nagha', 'SSH_AGENT_PID': '1633', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nagha', 'CYCLONEDDS_URI': 'file:///home/nagha/.cyclonedds/config.xml', 'OLDPWD': '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry/wheel_odometry', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-u9v0pB4E3d,guid=6630b4c4a3822b7c8ee10b7669ece39d', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'COLCON_PREFIX_PATH': '/home/nagha/Desktop/odom/install:/home/nagha/Desktop/slam/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nagha', 'JOURNAL_STREAM': '8:13020', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/system.slice/vncserver.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin', 'SESSION_MANAGER': 'local/nagha-pi:@/tmp/.ICE-unix/1432,unix/nagha-pi:/tmp/.ICE-unix/1432', 'INVOCATION_ID': 'c29819716f8c4af7b4d581be8d37a61b', 'XDG_MENU_PREFIX': 'xfce-', 'DISPLAY': ':1.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-NNp4JWTwHEcR/agent.1632', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/nagha/Desktop/odom/install/wheel_odometry:/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2fc5bc8f-c996-4ae8-b1eb-33512b6b48be', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:/home/nagha/Desktop/odom/install/wheel_odometry/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.811031] (-) TimerEvent: {}
+[1.911323] (-) TimerEvent: {}
+[2.011633] (-) TimerEvent: {}
+[2.111970] (-) TimerEvent: {}
+[2.212295] (-) TimerEvent: {}
+[2.312620] (-) TimerEvent: {}
+[2.336494] (wheel_odometry) StdoutLine: {'line': b'running develop\n'}
+[2.413588] (-) TimerEvent: {}
+[2.515017] (-) TimerEvent: {}
+[2.619368] (-) TimerEvent: {}
+[2.720070] (-) TimerEvent: {}
+[2.820730] (-) TimerEvent: {}
+[2.921237] (-) TimerEvent: {}
+[3.022457] (-) TimerEvent: {}
+[3.031840] (wheel_odometry) StdoutLine: {'line': b'Removing /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel-odometry.egg-link (link to .)\n'}
+[3.122636] (-) TimerEvent: {}
+[3.223488] (-) TimerEvent: {}
+[3.230058] (wheel_odometry) CommandEnded: {'returncode': 0}
+[3.235396] (wheel_odometry) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wheel_odometry', 'build', '--build-base', '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build', 'install', '--record', '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log', '--single-version-externally-managed'], 'cwd': '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry', 'env': {'VNCDESKTOP': 'nagha-pi:1 (nagha)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nagha', 'SSH_AGENT_PID': '1633', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nagha', 'CYCLONEDDS_URI': 'file:///home/nagha/.cyclonedds/config.xml', 'OLDPWD': '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry/wheel_odometry', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-u9v0pB4E3d,guid=6630b4c4a3822b7c8ee10b7669ece39d', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'COLCON_PREFIX_PATH': '/home/nagha/Desktop/odom/install:/home/nagha/Desktop/slam/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nagha', 'JOURNAL_STREAM': '8:13020', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/system.slice/vncserver.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin', 'SESSION_MANAGER': 'local/nagha-pi:@/tmp/.ICE-unix/1432,unix/nagha-pi:/tmp/.ICE-unix/1432', 'INVOCATION_ID': 'c29819716f8c4af7b4d581be8d37a61b', 'XDG_MENU_PREFIX': 'xfce-', 'DISPLAY': ':1.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-NNp4JWTwHEcR/agent.1632', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/nagha/Desktop/odom/install/wheel_odometry:/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2fc5bc8f-c996-4ae8-b1eb-33512b6b48be', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:/home/nagha/Desktop/odom/install/wheel_odometry/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nagha/Desktop/slam/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.323628] (-) TimerEvent: {}
+[3.427181] (-) TimerEvent: {}
+[3.527602] (-) TimerEvent: {}
+[3.627929] (-) TimerEvent: {}
+[3.725618] (wheel_odometry) StdoutLine: {'line': b'running egg_info\n'}
+[3.728010] (-) TimerEvent: {}
+[3.763983] (wheel_odometry) StdoutLine: {'line': b'writing ../../build/wheel_odometry/wheel_odometry.egg-info/PKG-INFO\n'}
+[3.767448] (wheel_odometry) StdoutLine: {'line': b'writing dependency_links to ../../build/wheel_odometry/wheel_odometry.egg-info/dependency_links.txt\n'}
+[3.767812] (wheel_odometry) StdoutLine: {'line': b'writing entry points to ../../build/wheel_odometry/wheel_odometry.egg-info/entry_points.txt\n'}
+[3.768154] (wheel_odometry) StdoutLine: {'line': b'writing requirements to ../../build/wheel_odometry/wheel_odometry.egg-info/requires.txt\n'}
+[3.768455] (wheel_odometry) StdoutLine: {'line': b'writing top-level names to ../../build/wheel_odometry/wheel_odometry.egg-info/top_level.txt\n'}
+[3.824476] (wheel_odometry) StdoutLine: {'line': b"reading manifest file '../../build/wheel_odometry/wheel_odometry.egg-info/SOURCES.txt'\n"}
+[3.826915] (wheel_odometry) StdoutLine: {'line': b"writing manifest file '../../build/wheel_odometry/wheel_odometry.egg-info/SOURCES.txt'\n"}
+[3.827239] (wheel_odometry) StdoutLine: {'line': b'running build\n'}
+[3.827410] (wheel_odometry) StdoutLine: {'line': b'running build_py\n'}
+[3.829944] (wheel_odometry) StdoutLine: {'line': b'creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build\n'}
+[3.830316] (-) TimerEvent: {}
+[3.830480] (wheel_odometry) StdoutLine: {'line': b'creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib\n'}
+[3.830669] (wheel_odometry) StdoutLine: {'line': b'creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry\n'}
+[3.830850] (wheel_odometry) StdoutLine: {'line': b'copying wheel_odometry/__init__.py -> /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry\n'}
+[3.831011] (wheel_odometry) StdoutLine: {'line': b'copying wheel_odometry/odom_node.py -> /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry\n'}
+[3.831137] (wheel_odometry) StdoutLine: {'line': b'running install\n'}
+[3.848006] (wheel_odometry) StdoutLine: {'line': b'running install_lib\n'}
+[3.881936] (wheel_odometry) StdoutLine: {'line': b'creating /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry\n'}
+[3.882538] (wheel_odometry) StdoutLine: {'line': b'copying /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry/__init__.py -> /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry\n'}
+[3.882736] (wheel_odometry) StdoutLine: {'line': b'copying /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry/odom_node.py -> /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry\n'}
+[3.883323] (wheel_odometry) StdoutLine: {'line': b'byte-compiling /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry/__init__.py to __init__.cpython-312.pyc\n'}
+[3.883721] (wheel_odometry) StdoutLine: {'line': b'byte-compiling /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry/odom_node.py to odom_node.cpython-312.pyc\n'}
+[3.887195] (wheel_odometry) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.917163] (wheel_odometry) StdoutLine: {'line': b'Copying ../../build/wheel_odometry/wheel_odometry.egg-info to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry-0.0.0-py3.12.egg-info\n'}
+[3.930426] (-) TimerEvent: {}
+[4.006639] (wheel_odometry) StdoutLine: {'line': b'running install_scripts\n'}
+[4.030505] (-) TimerEvent: {}
+[4.147591] (-) TimerEvent: {}
+[4.248697] (-) TimerEvent: {}
+[4.249804] (wheel_odometry) StdoutLine: {'line': b'Installing wheel_odom script to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/wheel_odometry\n'}
+[4.253163] (wheel_odometry) StdoutLine: {'line': b"writing list of installed files to '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log'\n"}
+[4.348871] (-) TimerEvent: {}
+[4.365503] (wheel_odometry) CommandEnded: {'returncode': 0}
+[4.388238] (wheel_odometry) JobEnded: {'identifier': 'wheel_odometry', 'rc': 0}
+[4.389279] (-) EventReactorShutdown: {}

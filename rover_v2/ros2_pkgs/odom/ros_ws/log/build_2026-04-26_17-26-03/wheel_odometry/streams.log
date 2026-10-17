@@ -1,0 +1,33 @@
+[1.809s] Invoking command in '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry': PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build
+[2.335s] running develop
+[3.031s] Removing /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel-odometry.egg-link (link to .)
+[3.229s] Invoked command in '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry' returned '0': PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build
+[3.235s] Invoking command in '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry': PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheel_odometry build --build-base /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build install --record /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log --single-version-externally-managed
+[3.725s] running egg_info
+[3.763s] writing ../../build/wheel_odometry/wheel_odometry.egg-info/PKG-INFO
+[3.766s] writing dependency_links to ../../build/wheel_odometry/wheel_odometry.egg-info/dependency_links.txt
+[3.767s] writing entry points to ../../build/wheel_odometry/wheel_odometry.egg-info/entry_points.txt
+[3.767s] writing requirements to ../../build/wheel_odometry/wheel_odometry.egg-info/requires.txt
+[3.767s] writing top-level names to ../../build/wheel_odometry/wheel_odometry.egg-info/top_level.txt
+[3.823s] reading manifest file '../../build/wheel_odometry/wheel_odometry.egg-info/SOURCES.txt'
+[3.826s] writing manifest file '../../build/wheel_odometry/wheel_odometry.egg-info/SOURCES.txt'
+[3.826s] running build
+[3.826s] running build_py
+[3.829s] creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build
+[3.829s] creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib
+[3.829s] creating /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry
+[3.830s] copying wheel_odometry/__init__.py -> /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry
+[3.830s] copying wheel_odometry/odom_node.py -> /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry
+[3.830s] running install
+[3.848s] running install_lib
+[3.881s] creating /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry
+[3.881s] copying /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry/__init__.py -> /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry
+[3.882s] copying /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build/lib/wheel_odometry/odom_node.py -> /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry
+[3.882s] byte-compiling /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry/__init__.py to __init__.cpython-312.pyc
+[3.883s] byte-compiling /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry/odom_node.py to odom_node.cpython-312.pyc
+[3.886s] running install_egg_info
+[3.916s] Copying ../../build/wheel_odometry/wheel_odometry.egg-info to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel_odometry-0.0.0-py3.12.egg-info
+[4.006s] running install_scripts
+[4.249s] Installing wheel_odom script to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/wheel_odometry
+[4.252s] writing list of installed files to '/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log'
+[4.365s] Invoked command in '/home/nagha/Desktop/odom/ros_ws/src/wheel_odometry' returned '0': PYTHONPATH=/home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wheel_odometry build --build-base /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/build install --record /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry/install.log --single-version-externally-managed

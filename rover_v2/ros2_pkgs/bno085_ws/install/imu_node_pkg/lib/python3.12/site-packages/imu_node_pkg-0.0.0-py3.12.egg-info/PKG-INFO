@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: imu-node-pkg
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: nagha
+Maintainer-email: nagha@todo.todo
+License: TODO: License declaration
+Provides-Extra: test

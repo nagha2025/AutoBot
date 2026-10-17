@@ -1,0 +1,19 @@
+[1.374s] Invoking command in '/home/nagha/Desktop/robot_bringup_ws/src/robot_bringup': PYTHONPATH=/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/build install --record /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
+[1.762s] running egg_info
+[1.787s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[1.789s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[1.789s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[1.789s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[1.856s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.861s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.862s] running build
+[1.862s] running build_py
+[1.862s] running install
+[1.872s] running install_lib
+[1.900s] running install_data
+[1.900s] running install_egg_info
+[1.939s] removing '/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.946s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info
+[1.961s] running install_scripts
+[2.182s] writing list of installed files to '/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/install.log'
+[2.273s] Invoked command in '/home/nagha/Desktop/robot_bringup_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagha/Desktop/robot_bringup_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/build install --record /home/nagha/Desktop/robot_bringup_ws/build/robot_bringup/install.log --single-version-externally-managed install_data

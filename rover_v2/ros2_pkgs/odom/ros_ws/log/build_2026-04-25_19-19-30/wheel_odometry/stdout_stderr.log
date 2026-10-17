@@ -1,0 +1,16 @@
+running develop
+running egg_info
+creating wheel_odometry.egg-info
+writing wheel_odometry.egg-info/PKG-INFO
+writing dependency_links to wheel_odometry.egg-info/dependency_links.txt
+writing entry points to wheel_odometry.egg-info/entry_points.txt
+writing requirements to wheel_odometry.egg-info/requires.txt
+writing top-level names to wheel_odometry.egg-info/top_level.txt
+writing manifest file 'wheel_odometry.egg-info/SOURCES.txt'
+reading manifest file 'wheel_odometry.egg-info/SOURCES.txt'
+writing manifest file 'wheel_odometry.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/python3.12/site-packages/wheel-odometry.egg-link (link to .)
+Installing wheel_odom script to /home/nagha/Desktop/odom/ros_ws/install/wheel_odometry/lib/wheel_odometry
+
+Installed /home/nagha/Desktop/odom/ros_ws/build/wheel_odometry

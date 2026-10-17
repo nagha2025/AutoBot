@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/imu_node_pkg/imu_node_pkg.egg-info
+writing ../../build/imu_node_pkg/imu_node_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_node_pkg/imu_node_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_node_pkg/imu_node_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/imu_node_pkg/imu_node_pkg.egg-info/requires.txt
+writing top-level names to ../../build/imu_node_pkg/imu_node_pkg.egg-info/top_level.txt
+writing manifest file '../../build/imu_node_pkg/imu_node_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/imu_node_pkg/imu_node_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/imu_node_pkg/imu_node_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build
+creating /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib
+creating /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg
+copying imu_node_pkg/__init__.py -> /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg
+copying imu_node_pkg/bno085_node.py -> /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg
+running install
+running install_lib
+creating /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg
+copying /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg/__init__.py -> /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg
+copying /home/nagha/Desktop/bno085_ws/build/imu_node_pkg/build/lib/imu_node_pkg/bno085_node.py -> /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg
+byte-compiling /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg/bno085_node.py to bno085_node.cpython-312.pyc
+running install_data
+creating /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/share/ament_index
+creating /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/share/ament_index/resource_index
+creating /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/share/ament_index/resource_index/packages
+copying resource/imu_node_pkg -> /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/share/imu_node_pkg
+running install_egg_info
+Copying ../../build/imu_node_pkg/imu_node_pkg.egg-info to /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/python3.12/site-packages/imu_node_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing bno085_node script to /home/nagha/Desktop/bno085_ws/install/imu_node_pkg/lib/imu_node_pkg
+writing list of installed files to '/home/nagha/Desktop/bno085_ws/build/imu_node_pkg/install.log'
