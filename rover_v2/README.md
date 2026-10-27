@@ -36,6 +36,9 @@ BNO085 IMU ──────I²C──┘                 │
                        FL motor RL motor     FR motor RR motor
 ```
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/06ebe9ed-9638-40aa-8473-c15432cb7236" />
+
+
 The Pi 5 handles perception, mapping and high-level decisions. The ESP32 receives movement commands over UART (and optionally Bluetooth) and drives the motor-driver inputs. The ESP32 is not a replacement for the Pi 5's ROS 2 computer; it is the low-level controller.
 
 ## 4. Proposed signal connections
