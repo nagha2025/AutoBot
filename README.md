@@ -19,7 +19,8 @@ The Intel RealSense D421 depth camera is mounted rigidly to the chassis and conn
 - **Regulated DC-DC converters** — provide the required regulated logic/computer supply rails.
 
 ## 3. Data and control architecture
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/06ebe9ed-9638-40aa-8473-c15432cb7236" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/12c7f195-e476-41ac-98da-206a9d18393e" />
+
 
 
 The Pi 5 handles perception, mapping and high-level decisions. The ESP32 receives movement commands over UART (and optionally Bluetooth) and drives the motor-driver inputs. The ESP32 is not a replacement for the Pi 5's ROS 2 computer; it is the low-level controller.
