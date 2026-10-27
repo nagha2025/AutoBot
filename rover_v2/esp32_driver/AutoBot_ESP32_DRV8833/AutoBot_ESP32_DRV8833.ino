@@ -57,8 +57,11 @@ static constexpr size_t COMMAND_BUFFER_SIZE = 160;
 
 // Motor order follows the original firmware's M1, M2, M3, M4.
 // Edit these pins to match your wiring.
-static constexpr uint8_t MOTOR_IN1[4] = {25, 27, 18, 23};
-static constexpr uint8_t MOTOR_IN2[4] = {26, 14, 19, 22};
+static constexpr uint8_t MOTOR_IN1[4] = {26, 27, 19, 22};
+static constexpr uint8_t MOTOR_IN2[4] = {25, 14, 18, 23};
+
+static constexpr uint8_t DRV1_NSLEEP_PIN = 32;
+static constexpr uint8_t DRV2_NSLEEP_PIN = 33;
 
 // ---------- Runtime state ----------
 BluetoothSerial SerialBT;
@@ -219,6 +222,7 @@ void processCommand(String rawCommand, const char *source) {
 void readCommandStream(Stream &stream, String &buffer, const char *source) {
   while (stream.available() > 0) {
     const char c = (char)stream.read();
+    Serial.print(c);
     if (c == '\r') continue;
 
     if (c == '\n') {
@@ -237,6 +241,12 @@ void setup() {
   Serial.begin(USB_SERIAL_BAUD);
   delay(400);
   Serial.println("\nAutoBot ESP32 DRV8833 controller starting...");
+
+  pinMode(DRV1_NSLEEP_PIN, OUTPUT);
+  pinMode(DRV2_NSLEEP_PIN, OUTPUT);
+
+  digitalWrite(DRV1_NSLEEP_PIN, HIGH);
+  digitalWrite(DRV2_NSLEEP_PIN, HIGH);
 
   // Configure all H-bridge inputs low before accepting commands.
   for (uint8_t i = 0; i < 4; ++i) {
