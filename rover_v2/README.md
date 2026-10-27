@@ -19,22 +19,8 @@ The Intel RealSense D421 depth camera is mounted rigidly to the chassis and conn
 - **Regulated DC-DC converters** — provide the required regulated logic/computer supply rails.
 
 ## 3. Data and control architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/06ebe9ed-9638-40aa-8473-c15432cb7236" />
 
-```text
-RealSense D421 ──USB──┐
-RPLidar C1 ──────USB──┼──> Raspberry Pi 5 (Ubuntu 24.04 / ROS 2 Jazzy)
-BNO085 IMU ──────I²C──┘                 │
-                                        │ UART, 3.3 V TTL
-                                        ▼
-                              ESP32-WROOM-32
-                              Bluetooth + motor control
-                               │                  │
-                         GPIO/PWM signals   GPIO/PWM signals
-                               ▼                  ▼
-                       Left DRV8833         Right DRV8833
-                         │       │             │       │
-                       FL motor RL motor     FR motor RR motor
-```
 
 The Pi 5 handles perception, mapping and high-level decisions. The ESP32 receives movement commands over UART (and optionally Bluetooth) and drives the motor-driver inputs. The ESP32 is not a replacement for the Pi 5's ROS 2 computer; it is the low-level controller.
 
